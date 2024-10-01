@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porsche 911 GT3</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon-porsche.png">
+    <link rel="stylesheet" href="style.css">
+    <!-- Gsap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">
+                <img src="assets/wordmark.png" alt="porsche wordmark">
+            </a>
+           <ul class="nav-links">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Models</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Contacts</a></li>
+           </ul> 
+           <select id="language-select">
+               <option value="en">En</option>
+               <option value="pt">Pt</option>
+           </select>
+           <a href="#" class="menu">
+               <img src="assets/menu.svg" alt="menu">
+           </a>
+        </nav>
+    </header>
+    <main>
+        <video src="assets/hero video.mp4" autoplay loop muted></video>
+        <h1>Unleash the Power of Perfection</h1>
+        <p>The Porsche 911 GT3 - Where Precision Meets Passion. Every detail, engineered for the thrill.</p>
+        <button>Customize your GT3</button>
+    </main>
+    <section class="model-section">
+        <div class="heading">
+            <h2>911 GT3</h2>
+            <h3>Porsche</h3>
+        </div>
+        <figure class="porsche-content">
+            <img src="assets/gt3-wordmark.png" alt="gt3 wordmark" class="gt3-logo">
+            <img src="assets/porsche-model.png" alt="porsche car model" class="model">
+        </figure>
+        <div class="metrics-wrapper">
+            <div class="metric">
+                <h4>max speed</h4>
+                <p>318 km/h</p>
+            </div>
+            <div class="metric">
+                <h4>0 - 100 km/h</h4>
+                <p>3,4s</p>
+            </div>
+            <div class="metric">
+                <h4>horse power</h4>
+                <p>510 hp</p>
+            </div>
+        </div>
+    </section>
+    <section class="description-section">
+        <div class="content-area">
+            <div class="text-container">
+                <h3 class="title1">Get a Taste of the Porsche Experience.</h3>
+                <p>Lorem, conng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sintn culpa qui officia deserunt mollit anim id est laborum, excepteur sint occaecat cupidatat non proident. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+            <video src="assets/video-1.mp4" controls autoplay loop muted></video>
+        </div>
+        <div class="content-area">
+            <div class="text-container">
+                <h3 class="title2">More than a car, a masterpiece.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+            </div>
+            <video src="assets/video-2.mp4" autoplay loop muted></video>
+        </div>
+    </section>
+    <section class="gallery-section">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img id="slide-1" src="assets/gallery-1.jpg" alt="gallery image 1">
+                <img id="slide-2" src="assets/gallery-2.jpg" alt="gallery image 2">
+                <img id="slide-3" src="assets/gallery-3.jpg" alt="gallery image 3">
+                <img id="slide-4" src="assets/gallery-4.jpg" alt="gallery image 4">
+                <img id="slide-5" src="assets/gallery-5.jpg" alt="gallery image 5">
+            </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+                <a href="#slide-4"></a>
+                <a href="#slide-5"></a>
+            </div>
+        </div>
+        <button>Customize your GT3</button>
+    </section>
+    <footer>
+        <div class="company-wrapper">
+            <a href="#">
+                <img src="assets/logo-white.png" alt="porsche logo" class="logo">
+            </a>
+            <p>© All rights reserved. Porsche</p>
+            <div class="socials">
+                <a href="https://www.instagram.com/porsche" target="_blank">
+                    <img src="assets/instagram-icon.svg" alt="instagram" title="Instagram">
+                </a>
+                <a href="https://www.youtube.com/Porsche" target="_blank">
+                    <img src="assets/youtube-icon.svg" alt="youtube" title="Youtube">
+                </a>
+                <a href="https://x.com/Porsche" target="_blank">
+                    <img src="assets/x-twitter-icon.svg" alt="x-twitter" title="X-Twitter">
+                </a>
+                <a href="https://www.facebook.com/porsche" target="_blank">
+                    <img src="assets/facebook-icon.svg" alt="facebook" title="Facebook">
+                </a>
+            </div>
+        </div>
+        <div class="footer-links">
+            <div class="column-content customer-experience">
+                <h6>Customer Experience</h6>
+                <ul>
+                    <li><a href="#">Schedule a Test Drive</a></li>
+                    <li><a href="#">Request a Brochure</a></li>
+                    <li><a href="#">Porsche Dealership Locator</a></li>
+                    <li><a href="#">Porsche Certified Pre-Owned</a></li>
+                </ul>
+            </div>
+            <div class="column-content support">
+                <h6>Support & Information</h6>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Porsche Financing Options</a></li>
+                    <li><a href="#">Warranty & Maintenance</a></li>
+                    <li><a href="#">Porsche Assistance</a></li>
+                </ul>
+            </div>
+            <div class="column-content contact-info">
+                <h6>Contacts</h6>
+                <ul>
+                    <li><a href="#">Email: support@porsche.pt</a></li>
+                    <li><a href="#">Phone: +351 123 456 789</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+    <script src="translation.js"></script>
+    <script>
+        // GSAP animations
+        const tl = gsap.timeline();
+        tl.from("h1", { opacity: 0, y: 100, duration: 1 })
+        .from("main p", { opacity: 0, y: 100, duration: 1 }, "-=0.8")
+        .from("main button", { opacity: 0, y: 100, duration: 1 }, "-=0.8");
+
+        gsap.from(".metric", {
+            scrollTrigger: {trigger: ".metric", start: "-80px 90%"},
+            opacity: 0,
+            y: 100,
+            duration: 1
+        });
+
+        gsap.utils.toArray(".text-container").forEach((video) => {
+            gsap.from(video, {
+                scrollTrigger: {
+                trigger: video,
+                start: "80% 90%",
+                },
+                opacity: 0,
+                x: -300,
+                duration: 1
+            });
+        });
+
+        gsap.utils.toArray(".content-area video").forEach((video) => {
+            gsap.from(video, {
+                scrollTrigger: {
+                trigger: video,
+                start: "80% 90%",
+                },
+                opacity: 0,
+                x: 300,
+                duration: 1
+            });
+        });
+    </script>
+</body>
+</html>
